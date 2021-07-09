@@ -1,0 +1,20 @@
+{% extends 'Core/base.html'%}{% block title%} Sobre Mi{% endblock%} {% block background%}{%load static%}{% static 'Core/img/hostal-ana-maria-01.jpg' %}{%endblock%} {%block headers%}
+<!-- Cabecera -->
+
+<h1>Acerca de</h1>
+<span class="subheading">Biografía</span> {% endblock%} 
+
+
+{% block content %}
+<div class=row>
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'Core/img/iii.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Hostal Clarita</h2>   
+        <p>Hostal familiar, con un grato ambiente y exclente servicio, especialmente dedicados al hospedaje de trabajadores</p>
+        <p>De empresas de todo el país...</p>
+    </div>
+</div>
+
+{% endblock%} 
